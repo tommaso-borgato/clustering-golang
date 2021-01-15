@@ -2,4 +2,7 @@ module github.com/tommaso-borgato/clustering-golang
 
 go 1.15
 
-require golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
+require (
+	github.com/pkg/sftp v1.12.0
+	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
+)
